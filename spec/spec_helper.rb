@@ -1,4 +1,4 @@
-RSpec.configure do|config|
-  config.color = true
+require_relative '../lib/fizzbuzz'
+RSpec.configure do |config|
   config.formatter = :documentation
 end
